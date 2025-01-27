@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #fff;
+    padding: 0px;
+    /* font: 16.0px/1.5 "Crimson Pro", serif; */
+    /* font: 16.0px/1.5 "Georgia", serif; */
+    /* font: 16.0px/1.5 "Quicksand", serif; */
+    /* font: 16.0px/1.5 "Ubuntu Mono", sans-serif; */
+    /* font: 16.0px/1.5 "Noto Sans", sans-serif; */
+    /* font: 16.0px/1.5 "Noto Serif", serif; */
+    /* font: 16.0px/1.5 "Trebuchet MS", sans-serif; */
+    /* font: 16.0px/1.5 "Inconsolata", sans-serif; */
+    /* font: 16.0px/1.5 "Lato", sans-serif; */
+    font: 16.0px/1.5 "Roboto", sans-serif;
+    /* font: 16.0px/1.5 'Segoe UI', sans-serif; */
+    /* font: 16.0px/1.5 'Calibri', sans-serif; */
+    color: #000000;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+email {
+    font-size: 14px;
+    font-family: "Ubuntu Mono";
+}
+
+position {
+    font-size: 14px;
+}
+
+.image {
+    border-radius: 0.35em;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.image:before {
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 0.35em;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.image.avatar {
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.image.avatar img {
+    border-radius: 10px;
+    width: 60%;
+    padding: 0px;
+
+}
+
+#header .image.avatar {
+    margin: 0 0 1em 0;
+    width: 8.00em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #13294B;
+    margin: 0 0 20px;
+}
+
+h1 {
+    font-weight: 500;
+    color: #13294B;
+    margin: 0 0 20px;
+}
+
+h2 {
+    color: #13294B;
+    font-weight: 500;
+    margin: 2px 0px 15px;
+    font-size: 157%;
+}
+
+
+
+p,
+ol,
+table,
+pre,
+dl {
+    margin: 0 0 20px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+a {
+    color: rgb(52, 78, 226);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #069;
+}
+
+a small {
+    font-size: 11px;
+    color: #777;
+    margin-top: -0.3em;
+    display: block;
+}
+
+a:hover small {
+    color: #777;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+code,
+pre {
+    font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+    color: #333;
+    font: 12px;
+}
+
+pre {
+    /* max-width: 500px; */
+    padding: 8px 15px;
+    background: #f6f6f6;
+    border-radius: 5px;
+    /* border: 1px solid #e5e5e5; */
+    overflow-x: auto;
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+dt {
+    color: #444;
+    font-weight: 500;
+}
+
+th {
+    color: #444;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 212px;
+    float: left;
+    position: fixed;
+    -webkit-font-smoothing: subpixel-antialiased;
+    padding-top: 5.5em;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+
+strong {
+    color: #000000;
+    font-weight: 500;
+}
+
+section {
+    width: 700px;
+    float: right;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+sectionb {
+    width: 700px;
+    margin: 0 auto; /* Centers the element horizontally */
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: block; /* Ensure it remains a block-level element */
+}
+
+
+small {
+    font-size: 11px;
+}
+
+hr {
+    border: 0;
+    background: #e5e5e5;
+    height: 1px;
+    margin: 0 0 20px;
+}
+
+
+@media print,
+screen and (max-width: 960px) {
+
+    div.wrapper {
+        width: auto;
+        margin: 0;
+    }
+
+    header,
+    section,
+    sectionb,
+    footer {
+        float: none;
+        position: static;
+        width: auto;
+        padding-top: 30px;
+    }
+
+    sectionb {
+        padding: 50px 0;
+        margin: 0 0 20px;
+    }
+    section {
+        border: 1px solid #e5e5e5;
+        border-width: 1px 0;
+        padding: 20px 0;
+        margin: 0 0 20px;
+    }
+
+    header a small {
+        display: inline;
+    }
+
+    header ul {
+        position: absolute;
+        right: 50px;
+        top: 52px;
+    }
+
+    .image.avatar img {
+        border-radius: 10px;
+        width: 117px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .image.avatar {
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 20px 20px
+    }
+}
+
+
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    width: 960px;
+    border-bottom: 0.5px solid #ccc;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+
+.topnav img {
+    margin-bottom: 5px;
+    margin-top: 12px;
+    width: auto;
+    height: 20px;
+}
+
+.topnav a.normal {
+    color: #003071;
+    text-align: center;
+    padding: 5px;
+    margin: 0 0px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.topnav a.name {
+    color: #000000;
+    text-align: center;
+    padding: 0px;
+    margin: 9px 9px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+}
+
+.topnav a.normal:hover {
+    text-decoration: underline;
+}
+
+
+#myLinks {
+    float: right;
+}
+
+
+
+
+@media print,
+screen and (max-width: 960px) {
+
+    .topnav a.name {
+        display: none;
+    }
+
+    #myLinks {
+        float: right;
+    }
+
+}
+
+
+
