@@ -1,0 +1,72 @@
+# Basic Information 
+title: Xiaotian Han
+position: Assistant Professor
+affiliation: Case Western Reserve University
+email: xhan (at) case.edu
+location: Cleveland, OH
+update: 12/20/2024
+
+# Search Engine Optimization (SEO)
+keywords: xiaotian han, han xiaotian, xiaotianhan, hanxiaotian, xiaotian, case western reserve university
+canonical: https://ahxt.github.io
+description: Xiaotian Han is an assistant professor in the Department of Computer and Data Sciences at Case Western Reserve University start form Fall 2024. Previously, He obtained my CS Ph.D. at Texas A&M University. His research interests lie in the general area of artifiicial intelligence, machine learning and data science, and recently Large Language Models (LLM).
+
+
+# Images 
+avatar: ./files/xt.png
+
+
+# The following files will be removed from the generated website.
+exclude:
+  - build.sh
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME
+
+include:
+  - _pages
+
+markdown: kramdown
+
+
+kramdown:
+  input: GFM
+  toc_levels: 2..3
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: 
+    bold_every: 5
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+#   parse_block_html: true
+
+
+navigation:
+  - title: "Home"
+    url: /
+
+  - title: "Publications"
+    url: /#publications
+
+  - title: "Teaching"
+    url: /teaching.html
+
+  - title: "Group"
+    url: /group.html
+
+  - title: "Blog"
+    url: /blog.html
+
+
+plugins:
+  - jekyll-sitemap
+  
+
+
+
+
